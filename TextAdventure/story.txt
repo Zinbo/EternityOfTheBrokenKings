@@ -1,0 +1,195 @@
+﻿
+STATE:8
+DESCRIPTION: "Boss Battle - Oppression of Mariael \n Walking into the room at the top of the stairs you look across to a huge wooden desk, each leg carved in the shape of a sea serpent, just about visible. As you step forwards the dark room begins to light up. After taking a few steps you pause. Looking around you see that the entire room is surrounded by glass and water; that is, except for the North face which seemed to be made of bricks. As the blue lights shine through the water it creates the illusion that you are submerged in the ocean. Continuing to make your way through the room you begin to hear the broken muttering and rambling of... who is that? Someone you know? Pressing forwards you see that in a dark corner of the room, on a side with no glass, there is a figure with long plaited hair, shimmering green in the light. It does not seem like she has noticed you yet. You are convinced you remember her voice from somewhere."
+NO_OF_CHOICES: 2
+CHOICE: "Approach her."
+CONSEQUENCE: "You attempt to approach the woman but as you draw closer she suddenly turns to face you and throws an acidic substance from her mixing table. The acid melts your face and seeps through into your skull. \n Hope is lost \n (Return and try again)"
+NEXT_STATE: 8
+CHOICE: "Search for the other woman."
+CONSEQUENCE: "You turn around to try and look for the other woman. As you reach the doorway at the top of the stairs you feel as if someone is behind you. Turning around you see the faceless woman before being sent tumbling down the stairs, breaking your neck. \n Hope is lost \n (Return and try again)"
+NEXT_STATE: 8
+
+STATE: 1
+DESCRIPTION: "Remembering that you slay dragons by removing their hearts you thrust your axe deep into the threads holding its heart in place. As the heart rolls onto the floor you are left with only minor burns on your hands. Watching intently it is as if you know what is going to happen. But as the body melts away into dust something occurs which you are sure never usually happens. Below the dust lies the limp body of the green haired woman, the place where her heart should have been left with only a gaping hole. Seeing the look upon her face you are struck with an even greater feeling of confusion. The mad look on her face had gone, and in its place sat a soft, contented smile. Walking back to the hooded woman you see a beautiful smile across her blood stained face, one that lit up the dark, damp room like the sun. Standing in awe your face falls as her face suddenly turns into a wicked smirk. Suddenly you realise that knelt next to her is the faceless woman. As the faceless woman shoots quickly over to you the hooded woman holds out her hand and blasts you with an unknown force against the wall. However, instead of crashing into the wall you are surprised when you fall onto a floor of stone and moss. Looking at your hand you realise that your armour has returned and you stand to find yourself back in the corridor. Turning to face the door you see that it now has a word scribbled on it; freedom."  
+
+STATE: 2
+DESCRIPTION: "Choosing to sacrifice yourself so that the woman would be given an opening to slay the serpent you close your eyes. Awaiting the pain you are surprised when instead you are wrapped in a warm embrace. You open your eyes to see that the woman has wrapped herself around you, using her body as a human shield against the blood she had spilled whilst beheading the serpent on her way past. You watch in shock and confusion as the acidic blood burns through her back. Not making a sound she only clings to you tighter, shielding you from every drop. As you hear the serpent hit the final floor, shaking the entire building, you try to switch places with the hooded woman, but she refuses to move. As you hit the floor you are cushioned by the body of the woman who violently vomits blood before looking over to the serpent. The scent of burning flesh that fills your nostrils almost causes you to vomit as you see the horrific burns on her body. Looking in the same direction as the hooded woman you see the exposed heart of the serpent, beating rapidly as blood spewed out of the surrounding sack. Its neck is also dangling from one flap of skin as it cackles madly, eyes rolling around in its head. As you approach the beast, its blood beginning to run dry, you have a strong feeling you have done this before. Stepping closer a weapon begins to materialize in your hand. Wielding the double handed axe you approach the serpent."
+NO_OF_CHOICES: 2
+CHOICE: "Remove its heart."
+CONSEQUENCE: 
+NEXT_STATE: 1
+CHOICE: "Remove its head."
+CONSEQUENCE: "Walking over to its head you easily swing the axe over your head and severe the serpents head from its body. However the creature still cackles madly and swivelling its eyes to look at you it spits acid at you. As the acid hits the joints of every limb your body melts and falls apart beneath you, leaving you screaming in agony. \n Hope is lost. \n (Return and try again)."
+NEXT_STATE: 8
+
+STATE: 3
+DESCRIPTION: "Running over to the lamp on the North side the hooded woman protects you as the serpent tries to devour you. Using the serpent’s body as leverage you manage to push yourself high enough to grasp the lamp. As the floor caves and the glass walls shatter you are thankful that this wall seems to hold. You watch with wide eyes as the serpent writhes in pain, toppling through floor after floor as the hooded woman throws herself from opposite walls, tearing at its scaly flesh. Her movements are so quick you struggle to follow them. Watching her you realise that her movement is so precise that she manages to escape every speck of acidic blood, even though it spurted relentlessly in every direction. Looking to your right you realise something is close to your face. So close that had it actually been able to breath you would have been able to feel its breath on your neck. Seeing a flash of skin you let go of the lamp, sending yourself tumbling down the floors towards the serpent. As you tumble closer to the serpent it unhinges its jaws, preparing to devour you."
+NO_OF_CHOICES: 2
+CHOICE: "Sacrifice yourself."
+CONSEQUENCE: 
+NEXT_STATE: 2
+CHOICE: "Sacrifice the hooded woman."
+CONSEQUENCE: "As you beg for someone to save you in your head you think little for the consequences of anyone else. The hooded woman stares at you sadistically as she watches the serpent devour you whole. You scream in its stomach as you are digested by the acid. \n Hope is lost. \n (Return and try again)."
+NEXT_STATE: 8
+
+STATE: 4
+DESCRIPTION: "Feeling as if she is not dead, and hesitant to approach her, you take a potion from the desk and throw it over, causing it to smash on the floor beside her. You watch as the potion seems to have no effect on her skin. However, the woman suddenly bursts into a fit of disturbing yet sweet giggling. You watch as her body twists and snaps. You listen as her bones stretch and break. Before you is a huge sea serpent, struggling to fit its entire body into the room. Cackling madly it throws itself towards you, retracting two fangs from its mouth. However, before it reaches you it throws back its head, cackling madly as blood gushes from its neck. She stands before you just long enough to her wicked smile, before throwing herself around the room and slashing madly at the serpent. As the fight continues you realise that the blood from the serpent is burning through the floor, and the glass around you is cracking. Looking around the room you try desperately to find something you can hold onto. "
+NO_OF_CHOICES: 3
+CHOICE: "Hold onto the lamp on the East wall."
+CONSEQUENCE: "You hold onto the lamp on the East wall, forgetting in your desperation that this wall is made entirely of glass. As the glass shatters and the floor gives way you are sent plummeting to the next floor in a sea of acidic blood and glass shards. As the shards cut into you the acid crawls underneath your skin. The pain seems to last an eternity. \n Hope is lost. \n (Return and try again)."  
+NEXT_STATE: 8
+CHOICE: "Hold on to the lamp on the North wall."
+CONSEQUENCE: "You hold onto the lamp on the West wall, forgetting in your desperation that this wall is made entirely of glass. As the glass shatters and the floor gives way and you are sent plummeting to the next floor in a sea of acidic blood and glass shards. As the shards cut into you the acid crawls underneath your skin. The pain is excruciating. \n Hope is lost. \n (Return and try again)." 
+NEXT_STATE: 8
+CHOICE: "Hold onto the lamp on the West wall."
+CONSEQUENCE: 
+NEXT_STATE: 3
+
+STATE: 5
+DESCRIPTION: "Rocking back and forth to yourself under the table you whisper constantly under your breath. I don’t want to die. As a green plait falls from the top of the table your eyes widen. However, before you know what is happening the hooded woman pounces over the table, sending her flying to the floor. Climbing out from under the desk you stand and watch as she stabs mercilessly at the heart of the green haired woman with twin daggers. The other woman laughs madly as she is stabbed and you watch in shock as she refuses die, blood splattering across the room and onto your face in the process. As your eyes shoot around the room you realise that the light is slowly becoming red as blood spurts in all directions, covering the glass. Your eyes dart back to the hooded woman as she stands up, backing away from the limp body on the floor. She stands watching the dead body as if expecting something to happen. However, nothing seems to happen."
+NO_OF_CHOICES: 3
+CHOICE: "Approach the body."
+CONSEQUENCE: "Convinced that the woman is dead you approach her. However as you draw closer a sharp pain rips through your chest, throwing you against the wall. Looking down you see that a huge serpent tail has pierced through your body. Vomiting blood everything goes black. \n Hope is lost. \n (Return and try again)."
+NEXT_STATE: 8
+CHOICE: "Wait to see what happens."
+CONSEQUENCE: "You wait patiently to see what happens. But you grow hesitant as you realise the faceless woman behind you has grown closer. \n (Choose again)."
+NEXT_STATE: 5
+CHOICE: "Throw something at the body."
+CONSEQUENCE:  
+NEXT_STATE: 4
+
+STATE: 6
+DESCRIPTION: "Deciding your best option for now is to hide you throw yourself behind the desk, managing to conceal yourself before the woman looks around. However, what you see in the doorway behind you disturbs you, perhaps even more so than the woman you are hiding from. In the doorway you see the faceless woman. However, she continues to stand still, leaving you to your own devices for now. Deciding that there is no escape from here you draw your knees into your body and wrap your arms around them, staring blankly at the floor. Several thoughts pass through your mind."
+NO_OF_CHOICES: 3
+CHOICE: "I don’t want to die."
+CONSEQUENCE: 
+NEXT_STATE: 5
+CHOICE: "I can do this by myself."
+CONSEQUENCE: "Determined to take care of things yourself you clench your fists, fire burning within you. However, you took too long to find the courage and you see a green plait fall from the desk followed by a sadistic laugh as the wood around you melts, encasing you in a burning tomb and suffocating you as you are forced to scream and swallow the acidic substance. \n Hope is lost. \n (Return and try again)."
+NEXT_STATE: 8
+CHOICE: "Give up."
+CONSEQUENCE: "Accepting your fate you roll your eyes to look at your body. Wait... what happened? \n Hope is lost. \n (Return and try again)."
+NEXT_STATE: 8
+
+STATE: 7
+DESCRIPTION: "Unsure of what to do next you decide to watch the woman. You watch as she appears to mix several concoctions in flasks at an experimental table. Turning to her side she pulls off a white sheet to reveal a man strapped to a table, wriggling and trying to scream through his gag. You continue to watch as she drips the liquid onto his face, distorting and burning it until he was no longer recognisable as a human being. What you can only assume are tears stream down his disfigured face as he makes eye contact with you. You are certain she will turn around at any moment."
+NO_OF_CHOICES: 3
+CHOICE: "Run over and try to save the man."
+CONSEQUENCE: "Running over to try and save the man the woman suddenly turns to face you and throws the substance from her hand. The acidic substance melts into your face and seeps through into your skull. \n Hope is lost. \n (Return and try again). "
+NEXT_STATE: 8
+CHOICE: "Break the glass around the room."
+CONSEQUENCE: "Running over to the side of the room you smash the glass. The water flows through the door and over the staircase. Attracting the woman’s attention she turns to face you and throws the substance from her hand. The acidic substance melts into your face and seeps through into your skull. \n Hope is lost. \n (Return and try again)."
+NEXT_STATE: 8
+CHOICE: "Hide behind the huge desk."
+CONSEQUENCE: 
+NEXT_STATE: 6
+
+STATE: 9
+DESCRIPTION: "An overwhelming urge tells you to continue upwards, despite the situation. As you begin to run up the stairs you hear the morphed voices of the monsters. Looking up the gap in the staircase that spirals upwards your eyes widen as the monsters peer over the bannister. Pausing you turn to run back. However, something catches your eye. Turning to again look up the staircase you watch as the woman swiftly jumps up the centre, bouncing from any wall she can reach. Blood pours down the centre of the stair way as she cuts off the limbs of the monsters. Confident she will take care of the rest of them you press on. As you run up the stairs, passing the broken bodies of monsters you realise something, something that would not pique the interest of an ordinary person, they would probably not even realise. The woman had cut into each of them specifically so they would not bleed on the stairs themselves, but instead the blood and loose limbs would fall down the centre. Looking upwards you can see that as the endless hoards of monsters run down she pulls each one close to the bannister before disposing of them. As you watch her you feel a strange sense of admiration as she delivers each blow perfectly, as though it was a performance she had practiced again and again. Lost in your own thoughts you reach the top of the staircase without even realising, only to find the woman has disappeared. "
+NO_OF_CHOICES: 1
+CHOICE: "Prepare yourself..."
+CONSEQUENCE: 
+NEXT_STATE: 8
+
+STATE: 10
+DESCRIPTION: "With no time to evaluate your decisions you hesitantly take her hand. Staring at you for a moment with her twisted smile she pulls you out through the corridor. She pulls you forwards as you nearly slip on the pool on blood and broken bodies outside. Letting go of your hand as the guards turns round she jumps onto her hands, flipping and cartwheeling down the corridor so fast that the guards have no time to act before she pounces on them, cutting violently into their bodies. You watch in awe, trying to follow her movements, but all you can see is the constant smirk that twists across her face as she effortlessly slays the monsters in the blink of an eye. Reaching a stairway she looks towards you, eyes shrouded in her cloak, as if expecting you to choose which way to go. "
+NO_OF_CHOICES: 3
+CHOICE: "Go down the stairs."
+CONSEQUENCE: "Deciding to go down the stairs you hesitantly take a step towards them. However the woman simply stares at you. Hearing the morphed voices of the monsters you try to make a hasty exit and run down the stairs. However, no matter how far you run the stairs seem to be never ending. You are trapped in an endless cycle, for eternity. \n Hope is lost \n (Return and try again)" 
+NEXT_STATE: 10
+CHOICE: "Go up the stairs."
+CONSEQUENCE: 
+NEXT_STATE: 9
+CHOICE: "Continue along the corridor."
+CONSEQUENCE: "Deciding to continue you hesitantly take another step down the corridor. However the woman simply stares at you. Hearing the morphed voices of the monsters you try to make a hasty exit and run down the corridor. However, no matter how far you run the corridor seems to be never ending. You are trapped in an endless cycle, for eternity. \n Hope is lost \n (Return and try again)"
+NEXT_STATE: 10
+
+STATE: 11
+DESCRIPTION: "Deciding you have no other option you try to ask the woman for help, forgetting that you are gagged. However, although no words leave your mouth a sadistic smile appears on the woman’s face, revealing a pair of fangs amongst a set of blindingly white teeth. You watch as she disappears for a moment. A piercing scream echoes through the hall. Looking under the door you see blood creeping slowly across the padded room, staining the surface as some of it is absorbed. Trembling, you watch as the door flings open and the woman, squelching through the pool of blood, walks over to you. You try to retreat against the wall but with nowhere to go you find that all you can do to protect yourself is bring your legs tightly into your chest. Your eyes fall to the hand of the woman, in which she carries a dagger smothered and dripping with blood. You close your eyes tightly as she gets closer, so close that you can feel her breath on your neck. However, lifting her head from your neck you move your arms. Opening your eyes you realise she has cut you loose and, as your eyes follow up her boots, you see that she holds a hand out towards you, waiting for you to grasp it." 
+NO_OF_CHOICES: 3
+CHOICE: "Take her hand."
+CONSEQUENCE: 
+NEXT_STATE: 10
+CHOICE: "Try to run away."
+CONSEQUENCE: "In a desperate attempt to escape you dash towards the door. As you skip round the corner you slip on the pool of blood. Looking up you realise that the corridor is filled with guards, their faces mutated horrifically. You sit eyes wide and body trembling as one of the guards pulls out a gun and sends a bullet plummeting into your skull. \n Hope is lost \n (Return and try again)"
+NEXT_STATE: 11
+CHOICE: "Fight her."
+CONSEQUENCE: "Terrified and fearing you will be unable to run past her your fight system kicks in. Boldly swinging for the woman you watch as nothing happens. Looking down at your shoulder you find that your entire arm is missing. As blood spurts out of the wound you watch as the woman does nothing but stand there with a look of twisted contentedness on her face. \n Hope is lost \n (Return and try again)"
+NEXT_STATE: 11
+
+STATE: 12
+DESCRIPTION: "Bursting out of the glass doors you look around the streets. However, there is no sign of the woman, or of any incident. Confused you push through the crowds of people, pacing up and down the street, only to find that the people there act as if nothing has happened. Pausing in the middle of the busy street you are taken by surprise as someone jumps you, knocking you to the floor and shrouding your eyes in darkness. The last thing you remember is the sound of a strange machine and the feeling of cold steel. Waking up, your eyes shoot open as you realise that your arms and legs are tightly wrapped together under a white coat. Trying to speak you realise that your mouth has been gagged. Throwing your body back against the wall you realise the entire room is padded. The only exit appears to be through a door on the other side of the room, containing a small opening lined with metal bars. Staring at the floor in deep contemplation you get the feeling someone is watching. In fact, you have had that feeling for some time now. Looking through the gap in the bars you see a brown hood and scarf. They perfectly match the garments of the woman you saw plummeting from the sky scraper. Looking down you see that your limbs tremble at the sight of her." 
+NO_OF_CHOICES: 2
+CHOICE: "Ask the woman for help."
+CONSEQUENCE: 
+NEXT_STATE: 11
+CHOICE: "Ignore her."
+CONSEQUENCE: "Deciding to ignore her you close your eyes tightly, hoping she will disappear. Opening your eyes relief washes over you as you find she has gone. What seems like an eternity passes by, and no one comes to save you. \n Hope is lost \n (Return and try again)" 
+NEXT_STATE: 12
+
+
+STATE: 13
+DESCRIPTION: "Stepping backwards you stare at the woman in horror. Her facial features are non-existent. Her eyes, nose, mouth... there is nothing there but a blank canvas of skin. Tilting her head as if expecting some kind of response a sharp pain shoots through your head, forcing you to hold both hands against your temples, patting down the mane of brown hair on your head. Falling to your knees as you grasp at your head the pain suddenly stops. Looking up you realise that the woman is gone, and in her place is a locket. Picking it up you realise it must be very old as it has rusted and feels like it could fall to pieces if you put any pressure on it. As you stare at the star shape you try to remember where you have seen it. However, you are broken out of your train of thought as you catch a glimpse of something from the corner of your eye. Lifting your eyes from the locket back to the window you see a woman falling towards the ground. Her brown scarf billows as she is sent flying past the window. Unable to make out her face under a brown hood you are, at least, able to make out a mess of blonde curls which tumble after her. As she flies past the window it is as if time suddenly slows down. Looking towards you, you catch a glimpse of cold green eyes before she disappears. You have an overwhelming urge to follow her." 
+NO_OF_CHOICES: 3
+CHOICE: "Jump after her and try to save her."
+CONSEQUENCE: "Unable to think straight you jump through the window, only to see that the woman has disappeared. Tumbling from the sky scraper you hit the floor, shattering your bones. \n Hope is lost \n (Return and try again)"
+NEXT_STATE: 13
+CHOICE: "Run to the ground floor."
+CONSEQUENCE: "Leaving the room via the only exist you see a flight of stairs. Running down the flight of stairs you realise how high up you must have been as it seems to take an eternity."
+NEXT_STATE: 12
+CHOICE: "Wait to see if anything else happens."
+CONSEQUENCE: "Pausing for a second to evaluate the situation you turn around to find the woman with no face. Lifting your hands to your head you are shocked to find nothing there. \n Hope is lost \n (Return and try again)"
+NEXT_STATE: 13
+
+STATE: 14
+DESCRIPTION: "Staring into the doorway you are met with the sound of ringing and tapping. Stepping into the room you are blinded by the light as it bounces from the windows which line the room onto the white floor. Holding your hand up to your eyes to shield yourself you realise that your armour has gone, and in its place you seem to be wearing a white shirt and suit. Looking around the room you see people sat at desks typing on strange machines. They seem to take no notice of you as they carry on with their work. As you scan the room your eyes fall upon something that piques your curiosity. Stood staring out the window is a woman with beautiful, long golden locks. Her outfit is strange compared to the others in the office room. Surrounded by a cloak of white feathers the only other part of her attire that you can see is her animal hide boots." 
+NO_OF_CHOICES: 2
+CHOICE: "Interrogate the woman."
+CONSEQUENCE: "Making your way over to the woman you place your hand on her shoulder to get her attention. Pausing for a second you wonder why you greeted her as if you already knew her. However, your mind grinds to a halt as the woman turns around."
+NEXT_STATE: 13
+CHOICE: "Try and see what she is staring at so intently."
+CONSEQUENCE: "Making your way over to the window you realise that there is nothing but clear blue skies. Looking below you see people bustling through the streets. The buildings are strange, like nothing you have ever seen before. Or perhaps you have seen them before? No, you would certainly remember something like that. Turning to face the woman your mind grinds to a halt."
+NEXT_STATE: 13
+
+STATE: 15
+DESCRIPTION: "Forcing yourself to your feet you are surprised by the lack of effort it required. Not only is your vision cleared but your body feels perfectly normal. Pausing for a second in confusion you decide it would be best to press on. Walking down the dark corridor you are drawn by a faint light and the echo of... a song? A song you seem to remember, yet the lyrics are quiet and muffled. Curious, you continue down the corridor until you are met with two doors; one to the East and one to the West. Looking at the thick wooden doors you pause and decide what to do next." 
+NO_OF_CHOICES: 3
+CHOICE: "Continue along the corridor."
+CONSEQUENCE: "You continue along the corridor. However, no matter how far you travel you do not seem to get any closer to the light. If anything it seems like you are getting further away from it. Looking West you are confused when you realise a door similar to the one you passed is stood before you. Looking to the East you see there is another door. Again it is identical to the one you passed, or perhaps they are the same door? \n (Choose again)"
+NEXT_STATE: 15
+CHOICE: "Take the door to the East."
+CONSEQUENCE: "Opening the door to the East you are surprised when all you are met with is darkness. On closer inspection you realise that it is not just dark. But, in fact, nothing exists in this room. It is empty, not even filled with darkness. \n (Choose again)"
+NEXT_STATE: 15
+CHOICE: "Take the door to the West."
+CONSEQUENCE: "The door to the West creaks on its hinges as you push it open."
+NEXT_STATE: 14
+
+STATE: 16
+DESCRIPTION: "Removing your glove and feeling your neck again you rub your hand over the spot where you cut yourself, again, and again. However, although you can feel a large scar across your neck there is no sign of any open wounds. Lifting your hand close to your face you are surprised when, after whipping a layer of blood from yourself, the wound seems to have stopped bleeding on its own. As the pain in your neck subsides you decide to look around the room again. The only exit seems to be a small corridor in the direction you assume is north. Holding your hand to your head you realise how disoriented you are." 
+NO_OF_CHOICES: 2
+CHOICE: "Wait in the room longer and see if you can remember anything."
+CONSEQUENCE: "You stare intently at the floor, trying to remember why you are here. However, no matter how hard you try you seem to remember nothing. \n (Choose again)"
+NEXT_STATE: 16
+CHOICE: "Go down the corridor."
+CONSEQUENCE: 
+NEXT_STATE: 15
+
+STATE: 17
+DESCRIPTION: "Deciding to sit down until you recover you look around the room groggily. The room itself is poorly lit but scanning the contents you can tell that there is nothing around you. Scrapping your claws over the floor it is clear the room is made from some kind of stone which is lined with a soft moss. As you regain your strength you realise that your neck has been throbbing. " 
+NO_OF_CHOICES: 2
+CHOICE: "Ignore the pain and try to get up."
+CONSEQUENCE: "As you get up a sharp pain shoots through your neck, causing you to grasp it with your hand, forgetting that the claws on your armour are sharp. You fall against the wall of the small room as you feel warm blood dripping from your neck."
+NEXT_STATE: 16
+CHOICE: "Check your neck."
+CONSEQUENCE: "Checking your neck you accidentally cut yourself on the claws on your armour."
+NEXT_STATE: 16 
+
+STATE: 18
+DESCRIPTION: "As you attempt to open your eyes you find that your vision is blurry, and with each blink your eyes stick together. You move your hand to rub your eyes, but thankfully as you bring the hand closer to your face you realise that you're wearing armour tipped with sharp claws and stop yourself before it is too late. Your body is heavy as you try to push yourself up from the cold ground, you must have been asleep for a long time. With every blink your vision clears a little more." 
+NO_OF_CHOICES: 2
+CHOICE: "Sit down for a while and take in your surroundings whilst you recover."
+CONSEQUENCE: 
+NEXT_STATE: 17
+CHOICE: "Force yourself to your feet. "
+CONSEQUENCE: "Your limbs begin shaking and give way, forcing you to your knees."
+NEXT_STATE: 17
