@@ -23,7 +23,7 @@ CONSEQUENCE: "Walking over to its head you easily swing the axe over your head a
 NEXT_STATE: 8
 
 STATE: 3
-DESCRIPTION: "Running over to the lamp on the North side the hooded woman protects you as the serpent tries to devour you. Using the serpent’s body as leverage you manage to push yourself high enough to grasp the lamp. As the floor caves and the glass walls shatter you are thankful that this wall seems to hold. You watch with wide eyes as the serpent writhes in pain, toppling through floor after floor as the hooded woman throws herself from opposite walls, tearing at its scaly flesh. Her movements are so quick you struggle to follow them. Watching her you realise that her movement is so precise that she manages to escape every speck of acidic blood, even though it spurted relentlessly in every direction. Looking to your right you realise something is close to your face. So close that had it actually been able to breath you would have been able to feel its breath on your neck. Seeing a flash of skin you let go of the lamp, sending yourself tumbling down the floors towards the serpent. As you tumble closer to the serpent it unhinges its jaws, preparing to devour you."
+DESCRIPTION: "Running over to the lamp on the North side the hooded woman protects you as the serpent tries to devour you. Using the serpent's body as leverage you manage to push yourself high enough to grasp the lamp. As the floor caves and the glass walls shatter you are thankful that this wall seems to hold. You watch with wide eyes as the serpent writhes in pain, toppling through floor after floor as the hooded woman throws herself from opposite walls, tearing at its scaly flesh. Her movements are so quick you struggle to follow them. Watching her you realise that her movement is so precise that she manages to escape every speck of acidic blood, even though it spurted relentlessly in every direction. Looking to your right you realise something is close to your face. So close that had it actually been able to breath you would have been able to feel its breath on your neck. Seeing a flash of skin you let go of the lamp, sending yourself tumbling down the floors towards the serpent. As you tumble closer to the serpent it unhinges its jaws, preparing to devour you."
 NO_OF_CHOICES: 2
 CHOICE: "Sacrifice yourself."
 CONSEQUENCE: 
@@ -39,14 +39,14 @@ CHOICE: "Hold onto the lamp on the East wall."
 CONSEQUENCE: "You hold onto the lamp on the East wall, forgetting in your desperation that this wall is made entirely of glass. As the glass shatters and the floor gives way you are sent plummeting to the next floor in a sea of acidic blood and glass shards. As the shards cut into you the acid crawls underneath your skin. The pain seems to last an eternity. \n Hope is lost. \n (Return and try again)."  
 NEXT_STATE: 8
 CHOICE: "Hold on to the lamp on the North wall."
-CONSEQUENCE: "You hold onto the lamp on the West wall, forgetting in your desperation that this wall is made entirely of glass. As the glass shatters and the floor gives way and you are sent plummeting to the next floor in a sea of acidic blood and glass shards. As the shards cut into you the acid crawls underneath your skin. The pain is excruciating. \n Hope is lost. \n (Return and try again)." 
-NEXT_STATE: 8
-CHOICE: "Hold onto the lamp on the West wall."
 CONSEQUENCE: 
 NEXT_STATE: 3
+CHOICE: "Hold onto the lamp on the West wall."
+CONSEQUENCE: "You hold onto the lamp on the West wall, forgetting in your desperation that this wall is made entirely of glass. As the glass shatters and the floor gives way and you are sent plummeting to the next floor in a sea of acidic blood and glass shards. As the shards cut into you the acid crawls underneath your skin. The pain is excruciating. \n Hope is lost. \n (Return and try again)." 
+NEXT_STATE: 8
 
 STATE: 5
-DESCRIPTION: "Rocking back and forth to yourself under the table you whisper constantly under your breath. I don’t want to die. As a green plait falls from the top of the table your eyes widen. However, before you know what is happening the hooded woman pounces over the table, sending her flying to the floor. Climbing out from under the desk you stand and watch as she stabs mercilessly at the heart of the green haired woman with twin daggers. The other woman laughs madly as she is stabbed and you watch in shock as she refuses die, blood splattering across the room and onto your face in the process. As your eyes shoot around the room you realise that the light is slowly becoming red as blood spurts in all directions, covering the glass. Your eyes dart back to the hooded woman as she stands up, backing away from the limp body on the floor. She stands watching the dead body as if expecting something to happen. However, nothing seems to happen."
+DESCRIPTION: "Rocking back and forth to yourself under the table you whisper constantly under your breath. I don't want to die. As a green plait falls from the top of the table your eyes widen. However, before you know what is happening the hooded woman pounces over the table, sending her flying to the floor. Climbing out from under the desk you stand and watch as she stabs mercilessly at the heart of the green haired woman with twin daggers. The other woman laughs madly as she is stabbed and you watch in shock as she refuses die, blood splattering across the room and onto your face in the process. As your eyes shoot around the room you realise that the light is slowly becoming red as blood spurts in all directions, covering the glass. Your eyes dart back to the hooded woman as she stands up, backing away from the limp body on the floor. She stands watching the dead body as if expecting something to happen. However, nothing seems to happen."
 NO_OF_CHOICES: 3
 CHOICE: "Approach the body."
 CONSEQUENCE: "Convinced that the woman is dead you approach her. However as you draw closer a sharp pain rips through your chest, throwing you against the wall. Looking down you see that a huge serpent tail has pierced through your body. Vomiting blood everything goes black. \n Hope is lost. \n (Return and try again)."
@@ -61,7 +61,7 @@ NEXT_STATE: 4
 STATE: 6
 DESCRIPTION: "Deciding your best option for now is to hide you throw yourself behind the desk, managing to conceal yourself before the woman looks around. However, what you see in the doorway behind you disturbs you, perhaps even more so than the woman you are hiding from. In the doorway you see the faceless woman. However, she continues to stand still, leaving you to your own devices for now. Deciding that there is no escape from here you draw your knees into your body and wrap your arms around them, staring blankly at the floor. Several thoughts pass through your mind."
 NO_OF_CHOICES: 3
-CHOICE: "I don’t want to die."
+CHOICE: "I don't want to die."
 CONSEQUENCE: 
 NEXT_STATE: 5
 CHOICE: "I can do this by myself."
@@ -78,7 +78,7 @@ CHOICE: "Run over and try to save the man."
 CONSEQUENCE: "Running over to try and save the man the woman suddenly turns to face you and throws the substance from her hand. The acidic substance melts into your face and seeps through into your skull. \n Hope is lost. \n (Return and try again). "
 NEXT_STATE: 8
 CHOICE: "Break the glass around the room."
-CONSEQUENCE: "Running over to the side of the room you smash the glass. The water flows through the door and over the staircase. Attracting the woman’s attention she turns to face you and throws the substance from her hand. The acidic substance melts into your face and seeps through into your skull. \n Hope is lost. \n (Return and try again)."
+CONSEQUENCE: "Running over to the side of the room you smash the glass. The water flows through the door and over the staircase. Attracting the woman's attention she turns to face you and throws the substance from her hand. The acidic substance melts into your face and seeps through into your skull. \n Hope is lost. \n (Return and try again)."
 NEXT_STATE: 8
 CHOICE: "Hide behind the huge desk."
 CONSEQUENCE: 
@@ -105,7 +105,7 @@ CONSEQUENCE: "Deciding to continue you hesitantly take another step down the cor
 NEXT_STATE: 10
 
 STATE: 11
-DESCRIPTION: "Deciding you have no other option you try to ask the woman for help, forgetting that you are gagged. However, although no words leave your mouth a sadistic smile appears on the woman’s face, revealing a pair of fangs amongst a set of blindingly white teeth. You watch as she disappears for a moment. A piercing scream echoes through the hall. Looking under the door you see blood creeping slowly across the padded room, staining the surface as some of it is absorbed. Trembling, you watch as the door flings open and the woman, squelching through the pool of blood, walks over to you. You try to retreat against the wall but with nowhere to go you find that all you can do to protect yourself is bring your legs tightly into your chest. Your eyes fall to the hand of the woman, in which she carries a dagger smothered and dripping with blood. You close your eyes tightly as she gets closer, so close that you can feel her breath on your neck. However, lifting her head from your neck you move your arms. Opening your eyes you realise she has cut you loose and, as your eyes follow up her boots, you see that she holds a hand out towards you, waiting for you to grasp it." 
+DESCRIPTION: "Deciding you have no other option you try to ask the woman for help, forgetting that you are gagged. However, although no words leave your mouth a sadistic smile appears on the woman's face, revealing a pair of fangs amongst a set of blindingly white teeth. You watch as she disappears for a moment. A piercing scream echoes through the hall. Looking under the door you see blood creeping slowly across the padded room, staining the surface as some of it is absorbed. Trembling, you watch as the door flings open and the woman, squelching through the pool of blood, walks over to you. You try to retreat against the wall but with nowhere to go you find that all you can do to protect yourself is bring your legs tightly into your chest. Your eyes fall to the hand of the woman, in which she carries a dagger smothered and dripping with blood. You close your eyes tightly as she gets closer, so close that you can feel her breath on your neck. However, lifting her head from your neck you move your arms. Opening your eyes you realise she has cut you loose and, as your eyes follow up her boots, you see that she holds a hand out towards you, waiting for you to grasp it." 
 NO_OF_CHOICES: 3
 CHOICE: "Take her hand."
 CONSEQUENCE: 

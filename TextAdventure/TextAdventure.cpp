@@ -1,9 +1,8 @@
 //============================================================================
 // Name        : TextAdventure.cpp
-// Author      : Zinbo
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Author      : Shane Jennings
+// Version     : 1
+// Description : Eternity of Broken Kings
 //============================================================================
 
 #include <iostream>
@@ -14,11 +13,11 @@
 #include <iterator>
 #include <algorithm>
 #include <cstdio>
+#include <limits>
 
 using namespace std;
 using namespace boost;
 
-string rules;
 
 string show_match(std::string const &s, regex const &r, smatch match) { 
 	if (regex_search(s, match, r)){
@@ -96,10 +95,6 @@ std::map<int, State*> readInStory(){
 
 		}
 	}
-
-	//cout << "Size of states:" <<  statesMap.size() << endl;
-	//cout << "actual state: " << statesMap.at(1);
-	//cout << "state: " << statesMap.at(1)->getDescript();
 	myReadFile.close();
 	
 	return statesMap;
@@ -132,6 +127,7 @@ void playGame(map<int, State*> states){
 	string usersInput;
 	string desc;
 	bool rightInput = false;
+	bool newLine = false;
 
 	while(numberOfChoices != 0){
 		rightInput = false;
@@ -151,10 +147,14 @@ void playGame(map<int, State*> states){
 				option = options.at(choiceNumber-1);
 				nextState = option->getNextState();
 				consequence = option->getConsequence();
-				replace(consequence, "\\n", "\n");
+				do{
+					newLine = replace(consequence, "\\n", "\n");
+				}
+				while(newLine);
 				cout << "\n";
 				if(!consequence.empty()){
 					cout << consequence << "\n";
+					cout << endl;
 				}
 			}else{
 				cout << "Input a choice number." << "\n";
@@ -171,7 +171,9 @@ int main(){
 	
 	playGame(states);
 
-	std::getchar();
+	std::cout << "Press ENTER to continue...";
+	std::cin.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
+	std::cin.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
 
 	return 0;
 }
